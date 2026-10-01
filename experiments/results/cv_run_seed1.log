@@ -1,0 +1,47 @@
+dev split: n=3718, treated=1846, events=2392; 5 folds; 7 candidates; H=20.0
+constant_ate                       fold 0  dr_loss=474.000  autoc=-0.897  qini=-0.318  c0=nan c1=nan  tau_sd=0.00  20.2s
+constant_ate                       fold 1  dr_loss=528.540  autoc=-0.627  qini=-0.212  c0=nan c1=nan  tau_sd=0.00  17.2s
+constant_ate                       fold 2  dr_loss=510.343  autoc=+1.384  qini=+0.552  c0=nan c1=nan  tau_sd=0.00  15.5s
+constant_ate                       fold 3  dr_loss=563.302  autoc=-0.526  qini=-0.143  c0=nan c1=nan  tau_sd=0.00  16.8s
+constant_ate                       fold 4  dr_loss=461.549  autoc=+0.581  qini=+0.255  c0=nan c1=nan  tau_sd=0.00  16.0s
+s_learner_gbm                      fold 0  dr_loss=471.319  autoc=+3.778  qini=+1.044  c0=0.601 c1=0.530  tau_sd=0.42  2.6s
+s_learner_gbm                      fold 1  dr_loss=526.103  autoc=+1.188  qini=+0.205  c0=0.535 c1=0.509  tau_sd=0.83  2.7s
+s_learner_gbm                      fold 2  dr_loss=510.512  autoc=+1.860  qini=+0.667  c0=0.536 c1=0.507  tau_sd=0.17  2.1s
+s_learner_gbm                      fold 3  dr_loss=559.145  autoc=+1.881  qini=+0.589  c0=0.571 c1=0.520  tau_sd=0.63  2.3s
+s_learner_gbm                      fold 4  dr_loss=459.149  autoc=+1.212  qini=+0.517  c0=0.535 c1=0.531  tau_sd=0.77  2.3s
+s_learner_ridge_interactions       fold 0  dr_loss=471.162  autoc=+2.551  qini=+0.746  c0=0.603 c1=0.540  tau_sd=0.72  0.6s
+s_learner_ridge_interactions       fold 1  dr_loss=528.525  autoc=+0.624  qini=+0.213  c0=0.527 c1=0.525  tau_sd=2.64  0.5s
+s_learner_ridge_interactions       fold 2  dr_loss=509.028  autoc=+2.370  qini=+0.623  c0=0.581 c1=0.572  tau_sd=0.81  0.4s
+s_learner_ridge_interactions       fold 3  dr_loss=557.036  autoc=+2.096  qini=+0.703  c0=0.545 c1=0.538  tau_sd=1.12  0.4s
+s_learner_ridge_interactions       fold 4  dr_loss=459.693  autoc=+0.821  qini=+0.380  c0=0.542 c1=0.529  tau_sd=1.01  0.4s
+dr_learner_ridge                   fold 0  dr_loss=469.643  autoc=+2.244  qini=+0.688  c0=nan c1=nan  tau_sd=1.15  18.0s
+dr_learner_ridge                   fold 1  dr_loss=529.759  autoc=+0.344  qini=+0.147  c0=nan c1=nan  tau_sd=2.77  16.3s
+dr_learner_ridge                   fold 2  dr_loss=507.176  autoc=+1.521  qini=+0.548  c0=nan c1=nan  tau_sd=1.24  16.3s
+dr_learner_ridge                   fold 3  dr_loss=557.979  autoc=+2.081  qini=+0.607  c0=nan c1=nan  tau_sd=1.73  15.9s
+dr_learner_ridge                   fold 4  dr_loss=457.423  autoc=+1.972  qini=+0.575  c0=nan c1=nan  tau_sd=1.80  15.4s
+dr_learner_ridge_gbsanuisance      fold 0  dr_loss=470.435  autoc=+2.126  qini=+0.646  c0=nan c1=nan  tau_sd=0.94  42.2s
+dr_learner_ridge_gbsanuisance      fold 1  dr_loss=526.425  autoc=+0.114  qini=+0.116  c0=nan c1=nan  tau_sd=1.67  40.1s
+dr_learner_ridge_gbsanuisance      fold 2  dr_loss=508.155  autoc=+1.491  qini=+0.499  c0=nan c1=nan  tau_sd=0.98  40.8s
+dr_learner_ridge_gbsanuisance      fold 3  dr_loss=558.601  autoc=+2.044  qini=+0.578  c0=nan c1=nan  tau_sd=1.20  44.1s
+dr_learner_ridge_gbsanuisance      fold 4  dr_loss=459.153  autoc=+1.708  qini=+0.508  c0=nan c1=nan  tau_sd=1.15  39.6s
+r_learner_ridge                    fold 0  dr_loss=469.694  autoc=+2.680  qini=+0.778  c0=nan c1=nan  tau_sd=0.95  8.9s
+r_learner_ridge                    fold 1  dr_loss=527.710  autoc=+0.509  qini=+0.190  c0=nan c1=nan  tau_sd=2.12  8.3s
+r_learner_ridge                    fold 2  dr_loss=508.435  autoc=+1.182  qini=+0.456  c0=nan c1=nan  tau_sd=1.17  8.3s
+r_learner_ridge                    fold 3  dr_loss=558.044  autoc=+1.850  qini=+0.551  c0=nan c1=nan  tau_sd=1.57  8.6s
+r_learner_ridge                    fold 4  dr_loss=458.300  autoc=+1.712  qini=+0.495  c0=nan c1=nan  tau_sd=1.55  8.6s
+setnet_plus_features               fold 0  dr_loss=471.909  autoc=+2.010  qini=+0.590  c0=0.588 c1=0.567  tau_sd=0.57  3.2s
+setnet_plus_features               fold 1  dr_loss=526.187  autoc=+0.325  qini=+0.184  c0=0.554 c1=0.535  tau_sd=0.85  0.9s
+setnet_plus_features               fold 2  dr_loss=509.397  autoc=+1.187  qini=+0.455  c0=0.589 c1=0.563  tau_sd=0.60  0.7s
+setnet_plus_features               fold 3  dr_loss=559.867  autoc=+1.842  qini=+0.539  c0=0.526 c1=0.515  tau_sd=0.52  0.6s
+setnet_plus_features               fold 4  dr_loss=460.116  autoc=+1.962  qini=+0.601  c0=0.532 c1=0.509  tau_sd=0.57  0.8s
+
+=== summary (sorted by dr_loss) ===
+                               dr_loss_mean  dr_loss_std  dr_loss_vs_constant_mean  autoc_ipw_mean  autoc_ipw_std  qini_ipw_mean  cindex_0_mean  cindex_1_mean  tau_sd_mean  seconds_mean
+candidate                                                                                                                                                                                
+dr_learner_ridge                    504.396       41.642                    -3.151           1.633          0.769          0.513            NaN            NaN        1.738         16.38
+r_learner_ridge                     504.436       41.131                    -3.110           1.587          0.807          0.494            NaN            NaN        1.475          8.54
+dr_learner_ridge_gbsanuisance       504.554       40.736                    -2.993           1.497          0.814          0.469            NaN            NaN        1.187         41.36
+s_learner_ridge_interactions        505.089       40.234                    -2.458           1.692          0.903          0.533          0.559          0.541        1.259          0.46
+s_learner_gbm                       505.246       40.755                    -2.301           1.984          1.058          0.604          0.555          0.520        0.567          2.40
+setnet_plus_features                505.495       40.580                    -2.051           1.465          0.718          0.474          0.558          0.538        0.621          1.24
+constant_ate                        507.547       41.226                     0.000          -0.017          0.965          0.027            NaN            NaN        0.000         17.14

@@ -1,0 +1,9 @@
+{
+  "learner": "dr_learner_ridge",
+  "horizon": 20.0,
+  "n_train": 4648,
+  "n_dropped_missing_treatment": 352,
+  "seed": 0,
+  "train_seconds": 15.7,
+  "data_file": "patient_records.json"
+}

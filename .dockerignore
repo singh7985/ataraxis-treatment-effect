@@ -1,0 +1,13 @@
+.venv
+.venv.nosync
+data
+experiments
+predictions
+tests
+*.ipynb
+.ipynb_checkpoints
+__pycache__
+*.pyc
+.DS_Store
+.git
+figures

@@ -1,0 +1,9 @@
+# Runtime dependencies only, pinned to the versions the model was trained with.
+# scikit-survival, lifelines and torch are training-time dependencies; the saved model does not need them.
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+scikit-learn==1.9.1
+joblib==1.6.0
+fastapi==0.142.2
+uvicorn==0.54.0
